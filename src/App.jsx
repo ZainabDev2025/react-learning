@@ -1,18 +1,19 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import HomeCards from "./components/HomeCards";
+import JobListings from "./components/JobListings";
+import ViewAllJobs from "./components/ViewAllJobs";
 
 const App = () => {
-  const names = ["ujala", "tayyab", "Ali"];
-  const loggedin = false;
   return (
-    <>
-      <div className="mx-auto bg-amber-800">App</div>
-      <ul>
-        {names.map((name, index) => (
-          <li key={index}>{name}</li>
-        ))}
-      </ul>
-    {!loggedin ? <h1>hi</h1> : <h1>bye</h1>}
-    </>
+    <div>
+      <Navbar />
+      <Hero />
+      <HomeCards />
+      <JobListings />
+      <ViewAllJobs />
+    </div>
   );
 };
 
