@@ -1,4 +1,5 @@
-{ "jobs" :[
+{
+  "jobs": [
     {
       "id": "1",
       "title": "Senior React Developer",
@@ -82,6 +83,21 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "title": "aesthetic nail bar",
+      "type": "Full-Time",
+      "location": "Texas",
+      "description": "we provide best acrylics ",
+      "salary": "Under $50k",
+      "company": {
+        "name": "nail bar",
+        "description": "nail art",
+        "contactEmail": "zainab@786",
+        "contactPhone": "123456"
+      },
+      "id": "TlULYEhQf18"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
